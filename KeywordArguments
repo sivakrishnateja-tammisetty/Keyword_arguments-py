@@ -1,0 +1,14 @@
+*Variable no.of keyword arguments.
+*It stores in the form of dict.
+
+Eg:
+def display(**kwargs):
+    print(kwargs)
+display()
+display(name="siva")
+display(age=23)
+
+o/p:
+{}
+{'name': 'siva'}
+{'age': 23}
